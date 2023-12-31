@@ -1,0 +1,36 @@
+*{
+    margin: auto;
+    background-color: cadetblue;
+}
+
+.name {
+    border: 1px transparent aqua;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    color: aqua;
+    background-color: beige;
+    text-align: initial;
+    font-weight: 900;
+    font-size: 100px;
+    display: flex;
+    animation: spinAnimate 2s ease-in 0s infinite normal;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+@keyframes spinAnimate {
+    from {
+        transform: translate(-50px);
+    }
+    to {
+        transform: translate(50px);
+    }
+}
+
+.text {
+    margin: auto;
+    text-align: center;
+    color: violet;
+    text-decoration: solid;
+}
